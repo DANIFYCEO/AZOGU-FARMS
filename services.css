@@ -5,6 +5,8 @@ body {
     background-image: url('IMAGES/Chicken products.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat:no-repeat;
+    height: 100hv;
     color: white;
     text-align: center;
 }
