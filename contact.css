@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('IMAGES/Goat product.jpg'); /* Optional background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200vh;
+    width: 100%;
+
+    color: white;
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #031f03;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+    background-color: rgba(4, 48, 18, 0.7); /* Dark green background */
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Contact Form Section */
+.contact-form {
+    background-color: rgba(4, 48, 18, 0.7); /* Dark green */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    color: white;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #031f03; /* Dark green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #a5b1a5; /* Darker green */
+}
+
+/* Contact Info Section */
+.contact-info {
+    margin: 20px auto;
+    max-width: 600px;
+    background: rgba(4, 48, 18, 0.7); /* Semi-transparent dark green */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: white;
+}
+
+/* Footer Section */
+footer {
+    background-color: rgba(4, 48, 18, 0.7); 
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo-image {
+    display: block;
+    margin: 10px auto;
+    width: 150px; /* Adjust logo size */
+    height: auto;
+}

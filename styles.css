@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9db49d;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #031f03;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    background-image: url('IMAGES/bAckground picture 2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Products Section */
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #031f03;
+    background-size: cover;
+    background-position: center;
+}
+
+.product.fish {
+    background-image: url('IMAGES/Fish homepage.jpg');
+}
+
+.product.pigs {
+    background-image: url('IMAGES/Pigs homepage.jpg');
+}
+
+.product.chicken {
+    background-image: url('IMAGES/Chicken homepage.jpg');
+}
+
+.product.eggs {
+    background-image: url('IMAGES/egg homepage.jpg');
+}
+
+/* Footer */
+footer {
+    background-color: #031f03;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
